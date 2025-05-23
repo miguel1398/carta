@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carta para ti</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .carta {
+      background-color: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .titulo {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .mensaje {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .imagen-carta {
+      width: 60px;
+      margin-bottom: 20px;
+    }
+
+    .boton {
+      background-color: #000;
+      color: white;
+      padding: 12px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .boton:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="carta">
+    <div class="titulo">Hey niña hermosa</div>
+    <img src="carta.webp" alt="Carta" class="imagen-carta" />
+    <div class="mensaje">el amor de tu vida tiene algo para ti</div>
+    <button class="boton" onclick="window.location.href='abrazo.html'">Ver</button>
+  </div>
+</body>
+</html>
